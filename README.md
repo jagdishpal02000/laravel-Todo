@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Apis
+there are 4 routes;
+    - ['/todo'](POST)       required login and todoBody.
+    - ['/todo'](PATCH)      required login and todoBody,todoId are optional.
+    - ['/todo'](DELETE)     required login and todoId.
+    - ['/login'](POST)      required email id and password.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
