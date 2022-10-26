@@ -9,11 +9,11 @@
 
 ## About Apis
 there are 4 routes;<br/>
-    - ['POST::/todo']       required login and todoBody.<br/>
-    - ['PATCH::/todo']      required login and todoBody,todoId are optional.<br/>
-    - ['DELETE::/todo']     required login and todoId.<br/>
-    - ['GET::/get-all']     required login.<br/>
-    - ['POST::/login']     required email id and password.<br/>
+    - [POST::/todo]       required login and todoBody.<br/>
+    - [PATCH::/todo]      required login and todoBody,todoId are optional.<br/>
+    - [DELETE::/todo]     required login and todoId.<br/>
+    - [GET::/get-all]     required login.<br/>
+    - [POST::/login]     required email id and password.<br/>
 
 
 ## About Laravel
